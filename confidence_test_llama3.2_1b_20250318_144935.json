@@ -1,0 +1,260 @@
+[
+  {
+    "run": 1,
+    "identified_model": "llama3.2:1b",
+    "correct_identification": true,
+    "confidence": 0.5243847089117356,
+    "tests_run": 10,
+    "api_calls": 8,
+    "duration_seconds": 19.43811345100403,
+    "top_matches": [
+      {
+        "model": "llama3.2:1b",
+        "score": 0.5243847089117356
+      },
+      {
+        "model": "gemma3:1b",
+        "score": 0.1679072866693212
+      },
+      {
+        "model": "phi4-mini:latest",
+        "score": 0.0722264141843338
+      }
+    ],
+    "stage_1_confidence": 0.5243847089117356,
+    "stage_1_tests": 10
+  },
+  {
+    "run": 2,
+    "identified_model": "llama3.2:1b",
+    "correct_identification": true,
+    "confidence": 0.44063090217595635,
+    "tests_run": 15,
+    "api_calls": 14,
+    "duration_seconds": 28.962929010391235,
+    "top_matches": [
+      {
+        "model": "llama3.2:1b",
+        "score": 0.44063090217595635
+      },
+      {
+        "model": "gemma3:1b",
+        "score": 0.2331681920287269
+      },
+      {
+        "model": "phi4-mini:latest",
+        "score": 0.08709302911168396
+      }
+    ],
+    "stage_1_confidence": 0.39474706756128486,
+    "stage_1_tests": 10,
+    "stage_2_confidence": 0.44063090217595635,
+    "stage_2_tests": 5
+  },
+  {
+    "run": 3,
+    "identified_model": "llama3.2:1b",
+    "correct_identification": true,
+    "confidence": 0.4265099204641268,
+    "tests_run": 15,
+    "api_calls": 11,
+    "duration_seconds": 22.810999870300293,
+    "top_matches": [
+      {
+        "model": "llama3.2:1b",
+        "score": 0.4265099204641268
+      },
+      {
+        "model": "gemma3:1b",
+        "score": 0.19516927945167287
+      },
+      {
+        "model": "phi4-mini:latest",
+        "score": 0.08755938221868652
+      }
+    ],
+    "stage_1_confidence": 0.3644479317951199,
+    "stage_1_tests": 10,
+    "stage_2_confidence": 0.4265099204641268,
+    "stage_2_tests": 5
+  },
+  {
+    "run": 4,
+    "identified_model": "gemma3:1b",
+    "correct_identification": false,
+    "confidence": 0.44440983147654256,
+    "tests_run": 10,
+    "api_calls": 8,
+    "duration_seconds": 16.58682918548584,
+    "top_matches": [
+      {
+        "model": "gemma3:1b",
+        "score": 0.44440983147654256
+      },
+      {
+        "model": "phi4-mini:latest",
+        "score": 0.10727545880259798
+      },
+      {
+        "model": "llama3.2:1b",
+        "score": 0.09629889479544353
+      }
+    ],
+    "stage_1_confidence": 0.44440983147654256,
+    "stage_1_tests": 10
+  },
+  {
+    "run": 5,
+    "identified_model": "llama3.2:1b",
+    "correct_identification": true,
+    "confidence": 0.8255671174359587,
+    "tests_run": 10,
+    "api_calls": 5,
+    "duration_seconds": 10.371584415435791,
+    "top_matches": [
+      {
+        "model": "llama3.2:1b",
+        "score": 0.8255671174359587
+      },
+      {
+        "model": "gemma3:1b",
+        "score": 0.14830014459152668
+      },
+      {
+        "model": "phi4-mini:latest",
+        "score": 0.07440614527071669
+      }
+    ],
+    "stage_1_confidence": 0.8255671174359587,
+    "stage_1_tests": 10
+  },
+  {
+    "run": 6,
+    "identified_model": "llama3.2:1b",
+    "correct_identification": true,
+    "confidence": 0.4209222277340139,
+    "tests_run": 10,
+    "api_calls": 7,
+    "duration_seconds": 14.506735801696777,
+    "top_matches": [
+      {
+        "model": "llama3.2:1b",
+        "score": 0.4209222277340139
+      },
+      {
+        "model": "gemma3:1b",
+        "score": 0.08381258979961412
+      },
+      {
+        "model": "phi4-mini:latest",
+        "score": 0.06443279966112687
+      }
+    ],
+    "stage_1_confidence": 0.4209222277340139,
+    "stage_1_tests": 10
+  },
+  {
+    "run": 7,
+    "identified_model": "llama3.2:1b",
+    "correct_identification": true,
+    "confidence": 0.3877761971652268,
+    "tests_run": 15,
+    "api_calls": 12,
+    "duration_seconds": 24.924591302871704,
+    "top_matches": [
+      {
+        "model": "llama3.2:1b",
+        "score": 0.3877761971652268
+      },
+      {
+        "model": "gemma3:1b",
+        "score": 0.09757192784787656
+      },
+      {
+        "model": "phi4-mini:latest",
+        "score": 0.08286685840841311
+      }
+    ],
+    "stage_1_confidence": 0.3618437180854978,
+    "stage_1_tests": 10,
+    "stage_2_confidence": 0.3877761971652268,
+    "stage_2_tests": 5
+  },
+  {
+    "run": 8,
+    "identified_model": "llama3.2:1b",
+    "correct_identification": true,
+    "confidence": 0.8678053181905571,
+    "tests_run": 10,
+    "api_calls": 7,
+    "duration_seconds": 14.516581535339355,
+    "top_matches": [
+      {
+        "model": "llama3.2:1b",
+        "score": 0.8678053181905571
+      },
+      {
+        "model": "gemma3:1b",
+        "score": 0.14323296588706338
+      },
+      {
+        "model": "phi4-mini:latest",
+        "score": 0.06481490647109985
+      }
+    ],
+    "stage_1_confidence": 0.8678053181905571,
+    "stage_1_tests": 10
+  },
+  {
+    "run": 9,
+    "identified_model": "llama3.2:1b",
+    "correct_identification": true,
+    "confidence": 0.7107154074297939,
+    "tests_run": 10,
+    "api_calls": 5,
+    "duration_seconds": 10.37686562538147,
+    "top_matches": [
+      {
+        "model": "llama3.2:1b",
+        "score": 0.7107154074297939
+      },
+      {
+        "model": "gemma3:1b",
+        "score": 0.14917750928815127
+      },
+      {
+        "model": "phi4-mini:latest",
+        "score": 0.06575190168371489
+      }
+    ],
+    "stage_1_confidence": 0.7107154074297939,
+    "stage_1_tests": 10
+  },
+  {
+    "run": 10,
+    "identified_model": "llama3.2:1b",
+    "correct_identification": true,
+    "confidence": 0.4045385220030292,
+    "tests_run": 15,
+    "api_calls": 10,
+    "duration_seconds": 20.757744312286377,
+    "top_matches": [
+      {
+        "model": "llama3.2:1b",
+        "score": 0.4045385220030292
+      },
+      {
+        "model": "gemma3:1b",
+        "score": 0.27155906561555376
+      },
+      {
+        "model": "phi4-mini:latest",
+        "score": 0.07822883023913699
+      }
+    ],
+    "stage_1_confidence": 0.41979319691479583,
+    "stage_1_tests": 10,
+    "stage_2_confidence": 0.4045385220030292,
+    "stage_2_tests": 5
+  }
+]

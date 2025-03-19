@@ -1,0 +1,264 @@
+[
+  {
+    "run": 1,
+    "identified_model": "phi4-mini:latest",
+    "correct_identification": true,
+    "confidence": 0.08339816778571588,
+    "tests_run": 15,
+    "api_calls": 9,
+    "duration_seconds": 23.394344329833984,
+    "top_matches": [
+      {
+        "model": "phi4-mini:latest",
+        "score": 0.08339816778571588
+      },
+      {
+        "model": "llama3.2:1b",
+        "score": 0.06497874394390932
+      },
+      {
+        "model": "gemma3:1b",
+        "score": 0.06227362255540885
+      }
+    ],
+    "stage_1_confidence": 0.29595517227616613,
+    "stage_1_tests": 10,
+    "stage_2_confidence": 0.08339816778571588,
+    "stage_2_tests": 5
+  },
+  {
+    "run": 2,
+    "identified_model": "llama3.2:1b",
+    "correct_identification": false,
+    "confidence": 0.34110266794634103,
+    "tests_run": 10,
+    "api_calls": 4,
+    "duration_seconds": 24.17880129814148,
+    "top_matches": [
+      {
+        "model": "llama3.2:1b",
+        "score": 0.34110266794634103
+      },
+      {
+        "model": "phi4-mini:latest",
+        "score": 0.07324267542384888
+      },
+      {
+        "model": "gemma3:1b",
+        "score": 0.06047155123622343
+      }
+    ],
+    "stage_1_confidence": 0.34110266794634103,
+    "stage_1_tests": 10
+  },
+  {
+    "run": 3,
+    "identified_model": "gemma3:1b",
+    "correct_identification": false,
+    "confidence": 0.37868446395168126,
+    "tests_run": 15,
+    "api_calls": 10,
+    "duration_seconds": 21.088329792022705,
+    "top_matches": [
+      {
+        "model": "gemma3:1b",
+        "score": 0.37868446395168126
+      },
+      {
+        "model": "phi4-mini:latest",
+        "score": 0.26495017731638215
+      },
+      {
+        "model": "llama3.2:1b",
+        "score": 0.08044443889959281
+      }
+    ],
+    "stage_1_confidence": 0.37584486078492724,
+    "stage_1_tests": 10,
+    "stage_2_confidence": 0.37868446395168126,
+    "stage_2_tests": 5
+  },
+  {
+    "run": 4,
+    "identified_model": "gemma3:1b",
+    "correct_identification": false,
+    "confidence": 0.5322229472065805,
+    "tests_run": 10,
+    "api_calls": 5,
+    "duration_seconds": 11.387437105178833,
+    "top_matches": [
+      {
+        "model": "gemma3:1b",
+        "score": 0.5322229472065805
+      },
+      {
+        "model": "phi4-mini:latest",
+        "score": 0.21896663623922938
+      },
+      {
+        "model": "llama3.2:1b",
+        "score": 0.06225521844036967
+      }
+    ],
+    "stage_1_confidence": 0.5322229472065805,
+    "stage_1_tests": 10
+  },
+  {
+    "run": 5,
+    "identified_model": "phi4-mini:latest",
+    "correct_identification": true,
+    "confidence": 0.3860406941103901,
+    "tests_run": 15,
+    "api_calls": 8,
+    "duration_seconds": 16.93548083305359,
+    "top_matches": [
+      {
+        "model": "phi4-mini:latest",
+        "score": 0.3860406941103901
+      },
+      {
+        "model": "gemma3:1b",
+        "score": 0.27791142227026505
+      },
+      {
+        "model": "llama3.2:1b",
+        "score": 0.04806853782959481
+      }
+    ],
+    "stage_1_confidence": 0.36665534470410815,
+    "stage_1_tests": 10,
+    "stage_2_confidence": 0.3860406941103901,
+    "stage_2_tests": 5
+  },
+  {
+    "run": 6,
+    "identified_model": "gemma3:1b",
+    "correct_identification": false,
+    "confidence": 0.30812489989220126,
+    "tests_run": 25,
+    "api_calls": 17,
+    "duration_seconds": 36.614784717559814,
+    "top_matches": [
+      {
+        "model": "gemma3:1b",
+        "score": 0.30812489989220126
+      },
+      {
+        "model": "phi4-mini:latest",
+        "score": 0.30520785054650507
+      },
+      {
+        "model": "llama3.2:1b",
+        "score": 0.08916397553419454
+      }
+    ],
+    "stage_1_confidence": 0.07456272790403765,
+    "stage_1_tests": 10,
+    "stage_2_confidence": 0.30812489989220126,
+    "stage_2_tests": 15
+  },
+  {
+    "run": 7,
+    "identified_model": "phi4-mini:latest",
+    "correct_identification": true,
+    "confidence": 0.45307090779250553,
+    "tests_run": 15,
+    "api_calls": 11,
+    "duration_seconds": 23.606383800506592,
+    "top_matches": [
+      {
+        "model": "phi4-mini:latest",
+        "score": 0.45307090779250553
+      },
+      {
+        "model": "gemma3:1b",
+        "score": 0.28559229905286637
+      },
+      {
+        "model": "llama3.2:1b",
+        "score": 0.07766811678831419
+      }
+    ],
+    "stage_1_confidence": 0.24715163737464937,
+    "stage_1_tests": 10,
+    "stage_2_confidence": 0.45307090779250553,
+    "stage_2_tests": 5
+  },
+  {
+    "run": 8,
+    "identified_model": "llama3.2:1b",
+    "correct_identification": false,
+    "confidence": 0.84203140703794,
+    "tests_run": 10,
+    "api_calls": 4,
+    "duration_seconds": 8.447628259658813,
+    "top_matches": [
+      {
+        "model": "llama3.2:1b",
+        "score": 0.84203140703794
+      },
+      {
+        "model": "gemma3:1b",
+        "score": 0.09799782525908932
+      },
+      {
+        "model": "phi4-mini:latest",
+        "score": 0.06142312107916812
+      }
+    ],
+    "stage_1_confidence": 0.84203140703794,
+    "stage_1_tests": 10
+  },
+  {
+    "run": 9,
+    "identified_model": "llama3.2:1b",
+    "correct_identification": false,
+    "confidence": 0.47166079129006494,
+    "tests_run": 10,
+    "api_calls": 4,
+    "duration_seconds": 8.469750165939331,
+    "top_matches": [
+      {
+        "model": "llama3.2:1b",
+        "score": 0.47166079129006494
+      },
+      {
+        "model": "gemma3:1b",
+        "score": 0.07873482139249971
+      },
+      {
+        "model": "phi4-mini:latest",
+        "score": 0.07195030842936066
+      }
+    ],
+    "stage_1_confidence": 0.47166079129006494,
+    "stage_1_tests": 10
+  },
+  {
+    "run": 10,
+    "identified_model": "phi4-mini:latest",
+    "correct_identification": true,
+    "confidence": 0.35403238110590196,
+    "tests_run": 15,
+    "api_calls": 9,
+    "duration_seconds": 19.08787512779236,
+    "top_matches": [
+      {
+        "model": "phi4-mini:latest",
+        "score": 0.35403238110590196
+      },
+      {
+        "model": "gemma3:1b",
+        "score": 0.26941875954996636
+      },
+      {
+        "model": "llama3.2:1b",
+        "score": 0.0676152652344784
+      }
+    ],
+    "stage_1_confidence": 0.3948814677072129,
+    "stage_1_tests": 10,
+    "stage_2_confidence": 0.35403238110590196,
+    "stage_2_tests": 5
+  }
+]
